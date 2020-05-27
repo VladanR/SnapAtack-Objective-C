@@ -17,6 +17,12 @@
 		BC71FDAB247E5D0200AC8B9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC71FDAA247E5D0200AC8B9B /* main.m */; };
 		BC71FDB5247E5D0200AC8B9B /* SnapAtackGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC71FDB4247E5D0200AC8B9B /* SnapAtackGameTests.m */; };
 		BC71FDC0247E5D0200AC8B9B /* SnapAtackGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC71FDBF247E5D0200AC8B9B /* SnapAtackGameUITests.m */; };
+		BC71FDD0247E5DDC00AC8B9B /* Cheveuxdange.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC71FDCE247E5DDC00AC8B9B /* Cheveuxdange.ttf */; };
+		BC71FDD1247E5DDC00AC8B9B /* Cheveuxdange.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC71FDCE247E5DDC00AC8B9B /* Cheveuxdange.ttf */; };
+		BC71FDD2247E5DDC00AC8B9B /* Cheveuxdange.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC71FDCE247E5DDC00AC8B9B /* Cheveuxdange.ttf */; };
+		BC71FDD3247E5DDC00AC8B9B /* DK Cinnabar Brush.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC71FDCF247E5DDC00AC8B9B /* DK Cinnabar Brush.ttf */; };
+		BC71FDD4247E5DDC00AC8B9B /* DK Cinnabar Brush.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC71FDCF247E5DDC00AC8B9B /* DK Cinnabar Brush.ttf */; };
+		BC71FDD5247E5DDC00AC8B9B /* DK Cinnabar Brush.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC71FDCF247E5DDC00AC8B9B /* DK Cinnabar Brush.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +62,8 @@
 		BC71FDBB247E5D0200AC8B9B /* SnapAtackGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapAtackGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC71FDBF247E5D0200AC8B9B /* SnapAtackGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapAtackGameUITests.m; sourceTree = "<group>"; };
 		BC71FDC1247E5D0200AC8B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC71FDCE247E5DDC00AC8B9B /* Cheveuxdange.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cheveuxdange.ttf; sourceTree = "<group>"; };
+		BC71FDCF247E5DDC00AC8B9B /* DK Cinnabar Brush.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DK Cinnabar Brush.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,7 @@
 		BC71FD94247E5CFF00AC8B9B /* SnapAtackGame */ = {
 			isa = PBXGroup;
 			children = (
+				BC71FDCD247E5DC600AC8B9B /* Fonts */,
 				BC71FD95247E5CFF00AC8B9B /* AppDelegate.h */,
 				BC71FD96247E5CFF00AC8B9B /* AppDelegate.m */,
 				BC71FD98247E5CFF00AC8B9B /* SceneDelegate.h */,
@@ -138,6 +147,15 @@
 				BC71FDC1247E5D0200AC8B9B /* Info.plist */,
 			);
 			path = SnapAtackGameUITests;
+			sourceTree = "<group>";
+		};
+		BC71FDCD247E5DC600AC8B9B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BC71FDCE247E5DDC00AC8B9B /* Cheveuxdange.ttf */,
+				BC71FDCF247E5DDC00AC8B9B /* DK Cinnabar Brush.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +261,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC71FDD3247E5DDC00AC8B9B /* DK Cinnabar Brush.ttf in Resources */,
 				BC71FDA8247E5D0200AC8B9B /* LaunchScreen.storyboard in Resources */,
 				BC71FDA5247E5D0200AC8B9B /* Assets.xcassets in Resources */,
 				BC71FDA0247E5CFF00AC8B9B /* Main.storyboard in Resources */,
+				BC71FDD0247E5DDC00AC8B9B /* Cheveuxdange.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +273,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC71FDD4247E5DDC00AC8B9B /* DK Cinnabar Brush.ttf in Resources */,
+				BC71FDD1247E5DDC00AC8B9B /* Cheveuxdange.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +282,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC71FDD5247E5DDC00AC8B9B /* DK Cinnabar Brush.ttf in Resources */,
+				BC71FDD2247E5DDC00AC8B9B /* Cheveuxdange.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
